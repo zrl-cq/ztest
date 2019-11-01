@@ -1,3 +1,7 @@
 git is a version contorl system.
 git is free software.
-update file
+git config --gloabal user.name 
+git config --gloabal user.email
+
+git add xuexi2.txt 
+git commit -m "tijaiobeizhu1"
