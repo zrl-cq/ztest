@@ -29,3 +29,7 @@ git checkout dev
 切换到dev分支
 git branch
 察看当前分支
+git merge dev
+#合并dev分支到master
+git branch -d dev
+·删除dev分支
