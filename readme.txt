@@ -4,11 +4,16 @@ git config --gloabal user.name
 git config --gloabal user.email
 
 git add xuexi2.txt 
+#添加文件
 git commit -m "tijaiobeizhu1"
-
+#提交到本地库
 git status
-
+#上次add或commit前文件变动
 git checkout --  filename
-
+#撤销改变
 git config --glabal credential.helper store
 #输入密码保存
+git log
+#察看库版本
+git reset -hard  版本id
+#版本退回
