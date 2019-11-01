@@ -5,3 +5,10 @@ git config --gloabal user.email
 
 git add xuexi2.txt 
 git commit -m "tijaiobeizhu1"
+
+git status
+
+git checkout --  filename
+
+git config --glabal credential.helper store
+#输入密码保存
