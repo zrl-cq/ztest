@@ -17,3 +17,15 @@ git log
 #察看库版本
 git reset -hard  版本id
 #版本退回
+git reset -HEAD
+#退回到上个版本
+git clone https://github.com/zrlrunlin20180821/gittest.git
+#克隆远程库到本地
+git checkout -b dev
+#创建dev分支，然后切换到dev分支：
+git branch dev
+创建dev分支
+git checkout dev
+切换到dev分支
+git branch
+察看当前分支
